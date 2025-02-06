@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-name-container {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 40%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-inline: 20px;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 25%;
+}
+
+#mateo-photo {
+    width: 5%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container {
+    width: 50%;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.battleship-image-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.battleship-image-container img {
+    width: 70%;
+}
+
+main h3, main p, main a, main :user-valid {
+    font-size: 20px;
+}

@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-name-container {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 40%;
+}
+
+header h2 {
+    color: rgb(139, 138, 138);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-inline: 20px;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 25%;
+}
+
+.navbar a, .projects a {
+    text-decoration: none;
+    color: black;
+}
+
+#mateo-photo {
+    width: 5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.projects {
+    width: 30%;
+}
+
+.projects-list {
+    list-style-type: none;
+    padding-inline: 0;
+}
+
+.projects-list li {
+    padding-block: 20px;
+}
+
+.projects-list li:not(:last-child) {
+    border-bottom: 2px black solid;
+}
+
+.experience, .education, .projects {
+    padding-inline: 30px;
+}
+
+
+.work-experience {
+    border-bottom: 2px black solid;
+}
+
+.experience {
+    padding-right: 100px;
+    width: 40%;
+    border-inline: 2px black solid;
+}
+
+.education {
+    width: 30%;
+}
+
+main {
+    padding-block: 30px;
+    display: flex;
+    font-size: 19px;
+    border : 2px black solid;
+}
+
+main section a {
+    text-decoration: none;
+    color: #1d41b9;
+}
+
+.reviews {
+    padding: 75px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 80px;
+}
+
+.card {
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+
+.card-footer {
+    color: rgb(117, 116, 116);
+}
+
+.card-footer p {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.courses-list {
+    list-style:circle;
+}
